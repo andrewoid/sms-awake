@@ -7,10 +7,10 @@ import android.content.Intent;
 public class SmsAwake extends BroadcastReceiver {
 
 	@Override
-	public void onReceive(Context context, Intent intent) {
-		Intent i = new Intent();
-		i.setClass(context, SmsAwakeService.class );
-		context.startService( i );
+	public void onReceive(final Context context, final Intent intent) {
+		final Intent i = new Intent();
+		i.setClass(context, SmsAwakeService.class);
+		context.startService(i);
 	}
 
 }
