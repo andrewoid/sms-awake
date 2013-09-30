@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:key="Settings"> 
+
+<EditTextPreference
+	android:key="timeout" 
+	android:title="Screen timeout"
+	android:numeric="integer"
+	android:defaultValue="5"
+	android:summary="Length in seconds to attempt to keep the screen on"/>
+	
+</PreferenceScreen>
